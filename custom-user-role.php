@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Custom User Role
- * Plugin URI: http://oskyblue.com
+ * Plugin URI: N/A
  * Version: 1.0
  * Description: Woocommerce percentage based discounts on products by custom user role.
- * Author: Osky Blue
- * Author URI: http://www.oskyblue.com
+ * Author: Saddam Hossain Azad
+ * Author URI: https://github.com/saddamazad
 **/
 
 if ( ! defined( 'ABSPATH' ) ) { 
@@ -21,7 +21,6 @@ define('CUR_ROOT', dirname(__FILE__));
 define('CUR_URL', plugins_url('/', __FILE__));
 define('CUR_HOME', home_url('/'));
 
-//require_once( ABSPATH . '/wp-content/plugins/woocommerce/woocommerce.php' );
 require_once( CUR_ROOT . '/includes/custom-sales-and-po.php' );
 
 // create custom plugin settings menu
