@@ -1,7 +1,6 @@
 <?php
 /**
 * Change Proceed To Checkout Text in WooCommerce
-* Place this in your Functions.php file
 **/
 
 function woocommerce_button_proceed_to_checkout() {
